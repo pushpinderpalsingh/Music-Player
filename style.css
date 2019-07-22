@@ -1,0 +1,286 @@
+body{
+	/*background-color*/: darkblue;
+}
+h2{
+	margin: 0px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+button{
+  width: 15vw;
+  height: 4vh;
+  border:none;
+  margin: 2vh;
+}
+h11{
+	color: black;
+	font-family:Verdana; 
+	font-size: 1rem;
+}
+/*Navigation Bar*/
+#NavBar{
+	background-color: black;
+	height: auto;
+	width: 100%;
+	margin:0px;
+	padding: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+#navleft{
+	display: flex;
+	width: 50%;
+}
+#navright{
+	display: flex;
+	width: 50%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navimage{
+	background-color: white;
+	display: inline-block;
+	border-radius: 50%;
+	height: 10vh;
+	width: 10vh;
+	margin: 2vh;}
+#playername{
+	display: flex;
+	flex-direction: column;
+}
+
+#playername1{
+	color: white;
+    font-size: 2.2rem;
+    position: relative;
+    top:1vh;
+}
+#playername2{
+	display: inline-block;
+	color: white;
+    position: relative;
+     top: -1vh;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+#navfavourites{
+	
+	color: white;
+	position: relative;
+	top: 4vh;
+	margin-left: 10vh;
+	font-size: 1.8rem;
+    text-align: center;
+}
+#navsearch{
+	position: relative;
+	top: 4vh;
+	right: 2vh;
+}
+#searchapp{
+	border-style: none;
+	/*background-color: white*/;
+	border-radius: 3vh;
+	height:1.8rem;
+	font-size: 1.2rem;
+}
+#bell{
+	position: relative;
+	top: 4vh;
+	color: white;
+	font-size: 2rem;
+	
+}
+/*Main Page*/
+.MainPage{
+	display: flex;
+	/*border: 2px solid black;*/
+	margin-top: 1px;
+	height: auto;
+	width: 100%;
+}
+.MusicPage{
+	/*border: 2px solid black;*/
+	height: auto;
+	width: 75%;
+	margin:2px;
+	display: flex;
+	flex-direction:column; 
+}
+.Queue{
+	/*border: 2px solid black;*/
+	height: auto;
+	width: 25%;
+	margin:2px;
+}
+.home{
+	width: 100%;
+	margin:1px;
+	height: auto;
+	/*border:2px solid black;*/
+} 
+/*Latest Release*/
+#latestrelease{
+	display: flex;
+	flex-wrap: wrap;
+	}
+.ltmusic{
+    margin-top: 0.5vh;
+	width: 50%;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	/*background-color: red*/;
+}
+.musicimg{
+	width: 15%;
+	margin: 2px;
+	height: 90%;
+	/*background-color: white*/;
+
+}
+.musicname{
+	/*background-color: white*/;
+	width: 68%;
+}
+.musictime{
+	/*background-color: white*/;
+	width: 15%;
+}
+/*Latest English & Punjabi*/
+ .latest{
+ 	display: flex;
+	/*background-color: red*/;
+	/*border:2px solid black;*/
+	height: 20vh;
+ }
+ .tilemusic{
+ 	width: 20%;
+	margin: 2px;
+	height: 90%;
+	/*background-color: white*/;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: center;
+ }
+ .tileimg{
+ 	width: 94%;
+ 	height: 80%;
+}
+ .tilename{
+ 	width: 60%;
+ 	height: 2vh;
+ 	margin-left: 0.1rem;
+ 	/*background-color: red*/; }
+
+/*Popular Artist*/
+.popimg{
+	/*background-color: red*/;
+	border-radius: 50%;
+}
+.popmusic{
+	width: 12%;
+}
+.popname{
+	width: 95%;
+	text-align: center;
+}
+
+/*MOOD*/
+.tilemood{
+	width: 32%;
+	margin: 2px;
+	margin-bottom: 0px;
+	height: 95%;
+	/*background-color: white*/;
+	display: flex;
+}
+h8{
+ font-size: 1.8rem;
+	margin:auto;
+}
+
+/*RADIO*/
+#tileradio{
+ width: 12%;
+}
+.radioimg{
+	margin: auto;
+}
+
+/*Queue*/
+.queuemusic{
+	width: 98%;
+}
+#queuetittle{
+	width: 92%;
+}
+/*BottomPlayer*/
+#BottomPlayer{
+	width: 100%;
+	height: 10vh;
+	background-color: black;
+	position: fixed;
+	top: 93%;
+	display: flex;
+}
+#sudo{
+	height: 5vh;
+}
+.song{
+	height: 6vh;
+	margin-bottom: 0.1rem;
+	margin-top: 0.1rem;
+	width: 33%;
+	display: flex;
+	flex-wrap: wrap;
+	/*background-color: red*/;
+}
+.controls{
+     /*background-color: white*/;
+     width: 100%;
+     height: 2.5vh;
+}
+
+/*Page Two*/
+/*Similar Artist and Recently Played*/
+.similarartist{
+	display: flex;
+	flex-direction: column;
+	/*flex-wrap: wrap;*/
+	width: 98%;
+	height: auto;
+	/*border: 2px solid black;*/
+	margin: 1vh;
+}
+.musicheading{
+	height: auto;
+}
+#fav{
+	height: 40vh;
+	flex-direction: row;
+}
+#favimg{
+	width: 28%;
+	height: 98%;
+}
+#info{
+	height: 97%;
+	width: 73%;
+	/*background-color:white*/; 
+	margin: 1vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+.heading{
+	width: 100%;
+	height: 10vh;
+	/*background-color: blue;*/
+	margin-top: 0.5rem;
+}
+	
