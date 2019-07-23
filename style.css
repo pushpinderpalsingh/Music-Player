@@ -1,33 +1,42 @@
 body{
-	/*background-color*/: darkblue;
+	background-color: #0d224e;
 }
 h2{
 	margin: 0px;
+	color: white;
 }
 a{
 	color: white;
 	text-decoration: none;
+}
+h8{
+	color: white
+
 }
 button{
   width: 15vw;
   height: 4vh;
   border:none;
   margin: 2vh;
+  color: white;
+  background-color: #00041dfc;
 }
 h11{
-	color: black;
+	color: white;
 	font-family:Verdana; 
 	font-size: 1rem;
 }
 /*Navigation Bar*/
 #NavBar{
-	background-color: black;
-	height: auto;
-	width: 100%;
-	margin:0px;
+	background-color: #081a42e0;
+	height: 13vh;
+	width: 101%;
+	margin:-7px;
 	padding: 0px;
 	display: flex;
 	flex-wrap: wrap;
+	position: sticky;
+	top: 0px;
 }
 #navleft{
 	display: flex;
@@ -144,11 +153,15 @@ h11{
 .musicname{
 	/*background-color: white*/;
 	width: 68%;
+	color: white;
 }
 .musictime{
 	/*background-color: white*/;
 	width: 15%;
+	color: white;
+
 }
+
 /*Latest English & Punjabi*/
  .latest{
  	display: flex;
@@ -174,6 +187,7 @@ h11{
  	width: 60%;
  	height: 2vh;
  	margin-left: 0.1rem;
+ 	color: white;
  	/*background-color: red*/; }
 
 /*Popular Artist*/
@@ -213,7 +227,7 @@ h8{
 
 /*Queue*/
 .queuemusic{
-	width: 98%;
+	width: 100%;
 }
 #queuetittle{
 	width: 92%;
@@ -222,7 +236,7 @@ h8{
 #BottomPlayer{
 	width: 100%;
 	height: 10vh;
-	background-color: black;
+	background-color: #1c1c1c;
 	position: fixed;
 	top: 93%;
 	display: flex;
@@ -243,6 +257,29 @@ h8{
      /*background-color: white*/;
      width: 100%;
      height: 2.5vh;
+     color: white;
+     display: flex;
+     justify-content: space-around;
+}
+.bar{
+	width: 100%;
+	height: 0.5rem;
+	border-radius: 20vw;
+	background-color: white;
+	margin-top: 0.8rem;
+	
+}
+#seek{
+	 width: 50%;
+	 height: 2vh;
+	  color: red;
+	  /*position: absolute;*/
+}
+.bartime{
+/*	margin-top: 0.5rem;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;*/
+	margin: 0.5rem 0.5rem 0rem 0.5rem;
 }
 
 /*Page Two*/
@@ -283,4 +320,6 @@ h8{
 	/*background-color: blue;*/
 	margin-top: 0.5rem;
 }
-	
+.favcolor{
+	background-color: #01014a;
+}
